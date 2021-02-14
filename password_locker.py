@@ -140,7 +140,7 @@ def main():
 						copy_credential(chosen_site)
 						print('')
 					else:
-						print('Oops! Wrong option entered. Try again.')
+						print('Wrong option entered. Try again.')
 
 			else: 
 				print(' ')
