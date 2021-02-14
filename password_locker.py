@@ -60,14 +60,14 @@ def main():
 	print('Hello! Welcome to Password Locker.')
 	while True:
 		print(' ')
-		print("-"*60)
-		print('Use these codes to navigate: \n ca-Create an Account \n li-Log In \n ex-Exit')
+		print("-"*30)
+		print('Use these codes to navigate: \n na-Create an Account \n li-Log In \n ex-Exit')
 		short_code = input('Enter a choice: ').lower().strip()
 		if short_code == 'ex':
 			break
 
-		elif short_code == 'ca':
-			print("-"*60)
+		elif short_code == 'na':
+			print("-"*30)
 			print(' ')
 			print('To create a new account:')
 			first_name = input('Enter your first name - ').strip()
@@ -88,10 +88,10 @@ def main():
 				print(f'Welcome {user_name}. Please choose an option to continue.')
 				print(' ')
 				while True:
-					print("-"*60)
+					print("-"*30)
 					print('Navigation codes: \n cc-Create a Credential \n dc-Display Credentials \n copy-Copy Password \n ex-Exit')
 					short_code = input('Enter a choice: ').lower().strip()
-					print("-"*60)
+					print("-"*30)
 					if short_code == 'ex':
 						print(" ")
 						print(f'Goodbye {user_name}')
@@ -103,10 +103,10 @@ def main():
 						account_name = input('Enter your account\'s name - ').strip()
 						while True:
 							print(' ')
-							print("-"*60)
+							print("-"*30)
 							print('Please choose an option for entering a password: \n ep-enter existing password \n gp-generate a password \n ex-exit')
 							psw_choice = input('Enter an option: ').lower().strip()
-							print("-"*60)
+							print("-"*30)
 							if psw_choice == 'ep':
 								print(" ")
 								password = input('Enter your password: ').strip()
@@ -147,7 +147,7 @@ def main():
 				print('Oops! Wrong details entered. Try again or Create an Account.')		
 		
 		else:
-			print("-"*60)
+			print("-"*30)
 			print(' ')
 			print('Oops! Wrong option entered. Try again.')
 				
