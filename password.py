@@ -57,11 +57,11 @@ def copy_credential(site_name):
 
 def main():
 	print(' ')
-	print('Hello! Welcome to Password Locker.')
+	print('Welcome to Password Locker.')
 	while True:
 		print(' ')
 		print("-"*30)
-		print('Use these codes to navigate: \n na-Create an Account \n li-Log In \n ex-Exit')
+		print('Use the codes to navigate: \n na-Create an Account \n li-Log In \n ex-Exit')
 		short_code = input('Enter a choice: ').lower().strip()
 		if short_code == 'ex':
 			break
@@ -117,7 +117,7 @@ def main():
 							elif psw_choice == 'ex':
 								break
 							else:
-								print('Oops! Wrong option entered. Try again.')
+								print('Wrong option entered. Try again.')
 						save_credential(create_credential(user_name,site_name,account_name,password))
 						print(' ')
 						print(f'Credential Created: Site Name: {site_name} - Account Name: {account_name} - Password: {password}')
