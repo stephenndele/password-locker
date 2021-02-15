@@ -4,7 +4,8 @@
 
  >1. `` git clone git remote add origin https://github.com/stephenndele/password-locker``
 >2. ``cd password``
->3. To run the app,  use  ``` python3.8 user_credentials_test.py ```
+>3. To run the app,  use  ``` python3.8 password.py ```
+>4. You may as well as run tests 
 
 
 
