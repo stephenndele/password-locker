@@ -11,7 +11,7 @@ class TestUser(unittest.TestCase):
 	'''
 	def setUp(self):
 		'''
-		Function to create a user account before each test
+		Function for creating a user account before each test
 		'''
 		self.new_user = User('Stephen','Ndele','ndele')
 
