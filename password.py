@@ -144,7 +144,7 @@ def main():
 
 			else: 
 				print(' ')
-				print('Oops! Wrong details entered. Try again or Create an Account.')		
+				print('Wrong details entered. Try again or Create an Account.')		
 		
 		else:
 			print("-"*30)
