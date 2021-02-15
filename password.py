@@ -149,7 +149,7 @@ def main():
 		else:
 			print("-"*30)
 			print(' ')
-			print('Oops! Wrong option entered. Try again.')
+			print('Wrong option entered. Try again.')
 				
 
 
