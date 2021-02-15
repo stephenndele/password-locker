@@ -25,7 +25,7 @@ def verify_user(first_name,password):
 
 def generate_password():
 	'''
-	Function to generate a password automatically
+	Function to generate a password for a user
 	'''
 	gen_pass = Credential.generate_password()
 	return gen_pass
