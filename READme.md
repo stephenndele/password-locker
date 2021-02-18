@@ -35,7 +35,7 @@
 * In your terminal:
         
         $ git clone https://github.com/stephenndele/password-locker.git``
-        $ cd Password-Locker
+        $ cd password
 
 ## Running the Application
 * To run the application, in your terminal:
