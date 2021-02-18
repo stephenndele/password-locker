@@ -1,5 +1,7 @@
 # Password Locker
 ### by :Stephen Ndele
+
+#### To clone project to your local computer and run it follow the following instructions.
  
 
  >1. `` git clone git remote add origin https://github.com/stephenndele/password-locker``
