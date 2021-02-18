@@ -2,6 +2,14 @@
 ### by :Stephen Ndele
 
 #### To clone project to your local computer and run it follow the following instructions.
+
+### Setup
+> Install these first:
+* Python3.8
+* pip
+* pyperclip
+* xclip
+
  
 
  >1. `` git clone git remote add origin https://github.com/stephenndele/password-locker``
@@ -10,12 +18,6 @@
 
 
 
-## Setup
-> Install these first:
-* Python3.8
-* pip
-* pyperclip
-* xclip
 
 ## Technologies used
 * Python3.8
